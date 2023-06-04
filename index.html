@@ -25,11 +25,11 @@
         <!--Navbar-->
         <nav>
             <ul>
-                <li><a href="#" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
-                <li><a href="#"><i class="fa-solid fa-user"></i> About Me</a></li>
-                <li><a href="#"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
-                <li><a href="#"><i class="fa-solid fa-server"></i> Services</a></li>
-                <li><a href="#"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
+                <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#services"><i class="fa-solid fa-server"></i> Services</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
         <!--Footer-->
@@ -491,16 +491,31 @@
 
                         <div class="info">
                             <h4>Location</h4>
-                            <p>Viet Nam</p>
-                        </div>
-                        
+                            <p>195/15 dien Bien Phu, Binh Thanh, HCM</p>
+                        </div>     
                     </div>
 
+                    <!-- Map -->
 
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1302221777664!2d106.70373427517958!3d10.801336989348917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529856e3fbcc9%3A0x35dbe2ed270b7ba1!2zMTk1LzE1IMSQaeG7h24gQmnDqm4gUGjhu6csIFBoxrDhu51uZyAxNSwgQsOsbmggVGjhuqFuaCwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1685840846267!5m2!1svi!2s" width="100%" height="250" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
 
                 </div>
                 <!-- right col-->
-                <div class="contact-right"></div>
+                <div class="contact-right">
+
+                    <form action="">
+
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea name="msg" id="msg" rows="9" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send Message">
+
+                    </form>
+
+                </div>
 
 
             </div>
